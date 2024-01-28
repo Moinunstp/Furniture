@@ -1,0 +1,134 @@
+/*Navbar*/
+.navbar-brand
+{
+	color: gray;
+	font-weight: bold;
+}
+.nav-item .nav-link
+{
+	color: gray;
+	font-weight: bold;
+	font-size: 20px;
+}
+ul a:hover
+{
+	color: firebrick !important;
+}
+.head
+{
+	color:firebrick;
+}
+/*Menu*/
+.cards div
+{
+	border: 3px solid chocolate;
+	width: 100%;	
+	font-family: arial;
+	z-index: -1;
+}
+.cards img
+{
+	width: 91%;
+	height: 300px;
+	transition: transform 1s;
+}
+.cards p
+{
+	margin: 20px 20px;
+	font-size: 20px;
+}
+.cards img:hover
+{
+	transition: transform 1s;
+	transform: scale(1.1,1.1);
+}
+.name
+{
+	color:#392613;
+	font-size: 40px;
+	font-weight: bold;
+}
+.name1
+{
+	font-size: 60px;
+	color: brown;
+	font-weight: bold;
+	margin-top: 20%;
+}
+.cards1 div
+{
+	width:100%;
+	height: 500px;	
+	color: brown;
+	font-family: arial;
+	z-index: -1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*Special*/
+.spe
+{
+	border: 1px solid black;
+	height: 100px;
+	display: none;
+}
+.cards1 div:hover .spe
+{
+	width: 100%;
+	display: block;
+}
+/*chair*/
+.c1{
+	color:black;
+}
+.cl1{
+	color:darkorange;
+}
+.ro{
+	border:1px solid darkorange;
+}
+.b1{
+	background-color:darkorange;
+	text:black;
+	padding:10px;
+	box-shadow:1px 1px 4px darkorange;
+}
+.rounded-3
+{
+	border: 2px solid #404040;
+}
+/*Footer*/
+.r1 
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: #392613;
+}
+.r2
+{
+	font-weight: bold;
+	font-size: 17px;
+	color: #392613;
+}
+
+#i1:hover
+{
+	font-size:30px;
+	color: blue;
+}
+#i2:hover
+{
+	font-size:30px;
+	color: skyblue;
+}
+#i3:hover
+{
+	font-size:30px;
+	color: deeppink;
+}
+#i4:hover
+{
+	font-size:30px;
+	color: red;
+}
